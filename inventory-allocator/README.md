@@ -52,3 +52,12 @@ We'll evaluate your code via the following guidelines in no particular order:
 2. **Correctness**: is the solution correct and does it solve the problem
 1. **Test Code Quality**: Is the test code comperehensive and covering all cases.
 1. **Tool/Language mastery**: is the code using up to date syntax and techniques. 
+
+
+## Approach:
+Parse through the order and check if the item required is present in a warehouse.
+If a warehouse contains the required element update the order and current warehouse stock.
+
+Else, take the avaiable stock from the current warehouse and move to the next warehouse.
+
+Finally, check if all the elements in the order are satisfied. If all elements are not satisfied, we return an empty list.
